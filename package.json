@@ -1,0 +1,37 @@
+{
+  "name": "butthorn",
+  "version": "0.0.1",
+  "description": "Dummy text endpoint for intellectuals.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hieronymous-bean/butthorn"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "keywords": [
+    "console"
+  ],
+  "author": "jeffreyallanbrown",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hieronymous-bean/butthorn/issues"
+  },
+  "homepage": "https://github.com/hieronymous-bean/butthorn",
+  "directories": {
+    "lib": "lib"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "validator": "^13.5.2"
+  },
+  "devDependencies": {
+    "del": "^6.0.0",
+    "gulp": "^4.0.2"
+  },
+  "scripts": {
+    "setup": "npm install && npm run build",
+    "build": "gulp default",
+    "start": "node index"
+  }
+}
